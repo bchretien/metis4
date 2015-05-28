@@ -5,6 +5,8 @@ set(SHARED TRUE CACHE BOOL "build a shared library")
 
 set(METIS_INSTALL_BIN TRUE)
 
+enable_testing()
+
 # Configure libmetis library.
 if(SHARED)
   set(METIS_LIBRARY_TYPE SHARED)
