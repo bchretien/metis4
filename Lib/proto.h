@@ -492,14 +492,14 @@ int smbfct(int, idxtype *, idxtype *, idxtype *, idxtype *, idxtype *, int *, id
 /***************************************************************
 * Test Directory
 ****************************************************************/
-void Test_PartGraph(int, idxtype *, idxtype *);
+int Test_PartGraph(int, idxtype *, idxtype *);
 int VerifyPart(int, idxtype *, idxtype *, idxtype *, idxtype *, int, int, idxtype *);
 int VerifyWPart(int, idxtype *, idxtype *, idxtype *, idxtype *, int, float *, int, idxtype *);
-void Test_PartGraphV(int, idxtype *, idxtype *);
+int Test_PartGraphV(int, idxtype *, idxtype *);
 int VerifyPartV(int, idxtype *, idxtype *, idxtype *, idxtype *, int, int, idxtype *);
 int VerifyWPartV(int, idxtype *, idxtype *, idxtype *, idxtype *, int, float *, int, idxtype *);
-void Test_PartGraphmC(int, idxtype *, idxtype *);
+int Test_PartGraphmC(int, idxtype *, idxtype *);
 int VerifyPartmC(int, int, idxtype *, idxtype *, idxtype *, idxtype *, int, float *, int, idxtype *);
-void Test_ND(int, idxtype *, idxtype *);
+int Test_ND(int, idxtype *, idxtype *);
 int VerifyND(int, idxtype *, idxtype *);
 
